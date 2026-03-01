@@ -2,7 +2,7 @@
 
 This repository is a minimal reproduction case for a bug in the `@better-auth/cli` `generate` command, where the CLI fails to import internal exports from `better-auth/db` across versions `1.4.6` through `1.4.20+`.
 
-> 🐛 **Bug filed:** [better-auth GitHub Issues](https://github.com/better-auth/better-auth/issues)
+> 🐛 **Bug filed:** [better-auth GitHub Issues](https://github.com/better-auth/better-auth/issues/8257)
 
 ---
 
