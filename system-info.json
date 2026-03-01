@@ -1,0 +1,61 @@
+{
+	"system": {
+		"platform": "win32",
+		"arch": "x64",
+		"version": "Windows 11 Pro",
+		"release": "10.0.26200",
+		"cpuCount": 12,
+		"cpuModel": "AMD Ryzen 5 5600X 6-Core Processor             ",
+		"totalMemory": "15.93 GB",
+		"freeMemory": "4.75 GB"
+	},
+	"node": {
+		"version": "v22.21.0",
+		"env": "development"
+	},
+	"packageManager": {
+		"name": "npm",
+		"version": "10.9.4"
+	},
+	"frameworks": [
+		{
+			"name": "svelte",
+			"version": "^5.51.0"
+		},
+		{
+			"name": "@sveltejs/kit",
+			"version": "^2.50.2"
+		}
+	],
+	"databases": [
+		{
+			"name": "@libsql/client",
+			"version": "^0.17.0"
+		},
+		{
+			"name": "drizzle",
+			"version": "^0.45.1"
+		}
+	],
+	"betterAuth": {
+		"version": "^1.4.18",
+		"config": {
+			"baseURL": "http://localhost:5173",
+			"secret": "[REDACTED]",
+			"emailAndPassword": {
+				"enabled": true
+			},
+			"plugins": [
+				{
+					"name": "sveltekit-cookies",
+					"config": {
+						"id": "sveltekit-cookies",
+						"hooks": {
+							"after": [{}]
+						}
+					}
+				}
+			]
+		}
+	}
+}
